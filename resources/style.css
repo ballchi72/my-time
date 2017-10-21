@@ -1,0 +1,234 @@
+.header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  border-bottom-style: solid;
+  border-width:1px;
+  padding-bottom: 10px;
+}
+
+.logo p {
+  color: MediumAquamarine;
+  margin-left: 10px;
+}
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.nav {
+  margin-right: 30px;
+}
+
+.nav li {
+display: inline;
+padding: 8px;
+}
+
+.nav a {
+  color: black;
+}
+
+.column {
+  display: flex;
+  justify-content: center;
+}
+
+.column .large {
+  width: 630px;
+  margin: 15px;
+}
+
+.column .medium {
+  width: 300px;
+  margin: 15px;
+}
+
+.column .small {
+  width: 240px;
+  margin: 15px;
+}
+
+.headline {
+  height: 300px;
+  background-image: url(./images/img-story-main.png);
+}
+
+.headline p {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+.intro {
+}
+
+.fbi {
+}
+
+.cats {
+  background-image: url(./images/img-story-1.png);
+  height: 300px;
+}
+
+.cats p {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.brooklyn {
+}
+
+.caption {
+}
+
+.orca .caption {
+  background-image: url(./images/img-story-2.png);
+  height: 230px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.burger .caption {
+  background-image: url(./images/img-story-3.png);
+  height: 230px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.news-bites {
+}
+
+.column .large {
+  margin-top: 30px;
+}
+
+.column .medium {
+  margin-top: 30px;
+}
+
+.column .small {
+  margin-top: 30px;
+}
+
+.intro p, .orca p, .burger p, .fbi p, .brooklyn p, .news-bites p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.col-container {
+  display: flex;
+  width: 100%;
+}
+
+.col-container .orca {
+  flex-direction: column;
+  width: 50%;
+  padding: 16px;
+  padding-left: 0px;
+}
+
+.col-container .burger {
+  flex-direction: column;
+  width: 50%;
+  padding: 16px;
+}
+
+.headline p, .caption, .cats p {
+text-align: center;
+}
+
+.orca h2, .burger h2 {
+  padding-bottom: 10px;
+}
+
+.orca p, .burger p {
+  padding-bottom: 60px;
+}
+
+.fbi {
+  padding-top: 40px;
+}
+
+h3 {
+  padding-bottom: 6px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.small {
+  padding-top: 40px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.list {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  margin: 0px;
+  padding: 15px;
+  padding-left: 20px;
+  border-bottom: 1px solid black;
+  width: 220px;
+}
+
+.footer-section {
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  padding: 120px 50px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer li {
+display: inline;
+padding: 10px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  color: black;
+}
+
+.footer p {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-right: 25px;
+  border-right: 2px solid;
+}
+
+.footer ul {
+  padding-left: 50px;
+}
