@@ -23,6 +23,7 @@
 
 .nav {
   margin-right: 30px;
+  
 }
 
 .nav li {
@@ -55,8 +56,11 @@ padding: 8px;
 }
 
 .headline {
+  margin-top: 40px;
   height: 300px;
   background-image: url(./images/img-story-main.png);
+  display: flex;
+  align-items: center;
 }
 
 .headline p {
@@ -74,6 +78,8 @@ padding: 8px;
 .cats {
   background-image: url(./images/img-story-1.png);
   height: 300px;
+  display: flex;
+  align-items: center;
 }
 
 .cats p {
@@ -96,6 +102,8 @@ padding: 8px;
   font-weight: bold;
   font-size: 30px;
   color: white;
+  display: flex;
+  align-items: center;
 }
 
 .burger .caption {
@@ -105,6 +113,8 @@ padding: 8px;
   font-weight: bold;
   font-size: 30px;
   color: white;
+  display: flex;
+  align-items: center;
 }
 
 .news-bites {
@@ -148,6 +158,7 @@ padding: 8px;
 
 .headline p, .caption, .cats p {
 text-align: center;
+vertical-align: middle;
 }
 
 .orca h2, .burger h2 {
